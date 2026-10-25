@@ -14,13 +14,13 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Check out gobjtool
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Check out Goose v2026.3
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: aardappel/goose
-          ref: v2026.3
+          ref: 8511ae34bdc9aabf77baaab80b4d659ea87835e2 # v2026.3
           path: .goose-toolchain
           submodules: false
 
