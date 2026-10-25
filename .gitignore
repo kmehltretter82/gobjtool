@@ -1,0 +1,5 @@
+/build/
+/.goose-toolchain/
+/*.log
+__pycache__/
+.DS_Store
